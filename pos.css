@@ -1,0 +1,90 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Position Relative */
+
+
+/* #test {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background: lightcoral;
+    position: relative;
+    left: 100px;
+    top: 100px;
+} */
+
+
+/* Position Absolute */
+
+
+/* #test {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background: lightblue;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+} */
+
+
+/* Position Fixed */
+
+
+/* #test {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background: lightblue;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+} */
+
+
+/* Position Sticky */
+
+
+/* #test {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background: lightblue;
+    position: sticky;
+    left: 30px;
+    top: 50px;
+} */
+
+
+/* Z Index */
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    position: absolute;
+    font-size: 25px;
+}
+
+#box1 {
+    background-color: lightblue;
+    top: 100px;
+    left: 50px;
+    z-index: 1;
+}
+
+#box2 {
+    background-color: lightcoral;
+    top: 150px;
+    left: 100px;
+    z-index: 2;
+}
+
+#box3 {
+    background-color: lightgreen;
+    top: 200px;
+    left: 150px;
+}

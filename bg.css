@@ -1,0 +1,161 @@
+/* Background Properties*/
+
+
+/* body {
+    height: 3000px;
+    background-image: url(./images/river-g833c539b0_1920.jpg), url(./images/flowers-gddf8cd29b_1920.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 80% 35%, 40% 90%;
+    background: red url(./images/flowers-gddf8cd29b_1920.jpg) no-repeat 30% 60%;
+} */
+
+
+/* Background Attachment */
+
+
+/* body {
+    height: 3000px;
+    background: url(./images/flowers-gddf8cd29b_1920.jpg) no-repeat right top;
+    background-attachment: fixed;
+} */
+
+
+/* Background Size */
+
+
+/* body {
+    background-color: lightcoral;
+}
+
+#box {
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding: 15px;
+    background: url(./images/flowers-gddf8cd29b_1920.jpg) no-repeat left top;
+    background-size: cover;
+    
+} */
+
+
+/* Background Origin */
+
+
+/* body {
+    background-color: tan;
+}
+
+#box {
+    width: 800px;
+    height: 600px;
+    padding: 25px;
+    text-align: justify;
+    border: 20px dotted #000;
+    background-color: #fff;
+    background-image: url(./images/flowers-gddf8cd29b_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-origin: border-box;
+    background-origin: content-box;
+    background-origin: padding-box;
+} */
+
+
+/* Background Clip */
+
+
+/* body {
+    background-color: slategray;
+}
+
+h1 {
+    background: url(./images/flowers-gddf8cd29b_1920.jpg);
+    color: transparent;
+    font-size: 70px;
+    font-family: impact;
+    -webkit-background-clip: text;
+}
+
+#box {
+    width: 800px;
+    height: 300px;
+    padding: 30px;
+    color: #000;
+    text-align: justify;
+    border: 20px dotted #000;
+    background-color: #fff;
+    background-clip: content-box;
+    background-clip: padding-box;
+}
+
+p {
+    margin: 0;
+} */
+
+
+/* Background-Blend_mode */
+
+
+/* body {
+    font-family: arial;
+}
+
+#box {
+    width: 440px;
+    height: 440px;
+    border: 2px solid #000;
+    background-size: cover;
+    background-image: linear-gradient(to right, hotpink, yellow), url(./images/flowers-gddf8cd29b_1920.jpg);
+    background-blend-mode: soft-light;
+} */
+
+
+/* Gradient Background */
+
+
+/* body {
+    font-family: arial;
+}
+
+#box {
+    width: 800px;
+    height: 300px;
+    padding: 30px;
+    border: 3px solid #000;
+    background: linear-gradient(-45deg, red, hotpink, green, indigo);
+    background: repeating-linear-gradient(to right, red, yellow 10%, pink 20%);
+}
+
+#box_2 {
+    width: 800px;
+    height: 300px;
+    padding: 30px;
+    border: 3px solid #000;
+    background: radial-gradient(circle, red 5%, yellow 15%, green 60%);
+} */
+
+
+/* Css Opacity */
+
+body {
+    font-family: arial;
+    background-color: lightcoral;
+}
+
+#box {
+    width: 800px;
+    height: 200px;
+    padding: 30px;
+    margin-bottom: 15px;
+    border: 3px solid #000;
+    /* background: tan; */
+    /* opacity: 0.5; */
+    background: rgba(0, 0, 0, 0.5);
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+}
