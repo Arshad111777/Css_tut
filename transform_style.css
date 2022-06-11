@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 400px;
+    height: 250px;
+    margin: 20rem auto;
+    background-color: grey;
+    perspective: 800px;
+    transform: rotateY(30deg);
+    transform-style: preserve-3d;
+}
+
+#box {
+    width: 400px;
+    height: 250px;
+    background-color: pink;
+    padding: 20px;
+    transform: rotateX(60deg);
+}
